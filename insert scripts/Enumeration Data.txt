@@ -1,0 +1,68 @@
+Column_Name	Actual_value	Proposed_Value
+Union_Status	YES	Y
+Union_Status	NO	N
+Source_Codes	TBD	TBD
+State_Codes	Alabama	AL
+State_Codes	Alaska	AK
+State_Codes	Arizona	AZ
+State_Codes	Arkansas	AR
+State_Codes	California	CA
+State_Codes	Colorado	CO
+State_Codes	Connecticut	CT
+State_Codes	Delaware	DE
+State_Codes	District of Columbia	DC
+State_Codes	Florida	FL
+State_Codes	Georgia	GA
+State_Codes	Hawaii	HI
+State_Codes	Idaho	ID
+State_Codes	Illinois	IL
+State_Codes	Indiana	IN
+State_Codes	Iowa	IA
+State_Codes	Kansas	KS
+State_Codes	Kentucky	KY
+State_Codes	Louisiana	LA
+State_Codes	Maine	ME
+State_Codes	Maryland	MD
+State_Codes	Massachusetts	MA
+State_Codes	Michigan	MI
+State_Codes	Minnesota	MN
+State_Codes	Mississippi	MS
+State_Codes	Missouri	MO
+State_Codes	Montana	MT
+State_Codes	Nebraska	NE
+State_Codes	Nevada	NV
+State_Codes	New Hampshire	NH
+State_Codes	New Jersey	NJ
+State_Codes	New Mexico	NM
+State_Codes	New York	NY
+State_Codes	North Carolina	NC
+State_Codes	North Dakota	ND
+State_Codes	Ohio	OH
+State_Codes	Oklahoma	OK
+State_Codes	Oregon	OR
+State_Codes	Pennsylvania	PA
+State_Codes	Rhode Island	RI
+State_Codes	South Carolina	SC
+State_Codes	South Dakota	SD
+State_Codes	Tennessee	TN
+State_Codes	Texas	TX
+State_Codes	Utah	UT
+State_Codes	Vermont	VT
+State_Codes	Virginia	VA
+State_Codes	Washington	WA
+State_Codes	West Virginia	WV
+State_Codes	Wisconsin	WI
+State_Codes	Wyoming	WY
+Pay_Frequency	Weekly	W
+Pay_Frequency	Biweekly	B
+Pay_Frequency	Semimonthly	S
+Pay_Frequency	Monthly	M
+Gender	Male	M
+Gender	Female	F
+Gender	Undefined	U
+Marital_Status	Married	M
+Marital_Status	Single	S
+Marital_Status	Divorced	D
+Marital_Status	Widowed	W
+Marital_Status	Head of Household	H
+Marital_Status	Other	O

@@ -1,0 +1,52 @@
+insert into tbl_Inbound_Source_Setup
+(      [Type_Of_Ingestion_ID]
+      ,[Source_URL]
+      ,[User_ID]
+      ,[Password]
+      ,[Payroll_Provider_ID]
+      ,[Frequency_ID]
+      ,[Destination_Setup_ID]     
+      ,[Connection_Port]
+      ,[Source_Folder_Path]
+      ,[From_Email_ID]
+      ,[API_Name]
+      ,[File_Type_ID]
+      ,[File_Name_Pattern]
+      ,[Payroll_Provider_Name]
+      ,[Delimiter]
+      ,[Is_Header_Available]
+      ,[Summary_Section]
+      ,[Data_Header_Row]
+      ,[Data_Start_Row]
+      ,[Footer_Start_Row]
+      ,[Hierarchial_Data]
+      ,[Get_Or_Put]
+      ,[Created_By]
+      ,[Updated_By]
+      ,[Created_Date]
+      ,[Updated_Date]
+      ,[Is_Active])
+values
+(1,'ftp.mindcraft.in/','ashish.shelar@mindcraft.in','mindcraft@123','1','1',1232,'asd','ftp.mindcraft.in/','','','Delimited','OMNI_201020_150334','OMNI','Pipe','n','n','1','2','','N','Get','gadgem','',getdate(),'','y'),
+(1,'ftp.mindcraft.in/','ashish.shelar@mindcraft.in','mindcraft@123','1','1',13235,'asd','ftp.mindcraft.in/','','','Delimited','VOYA_12042019_$27292.05','VOYA','Comma','n','y','1','2','','Y','Get','gadgem','',getdate(),'','y'),
+
+
+insert into [dbo].[tbl_Destination_Setup]
+(
+      [Destination_URL]
+      ,[User_ID]
+      ,[Password]
+      ,[connection_port]
+      ,[destination_folder_path]
+      ,[Error_Folder_Path]
+      ,[Created_By]
+      ,[Created_Date]
+      ,[Updated_By]
+      ,[Updated_Date]
+)
+Values
+('https://stpayroll360001.blob.core.windows.net/tsm','shelara@pcscapital.com','mindcraft@123','443','/tsm/omni/',NULL,'SYSYTEM,Getdate(),'SYSTEM,gatdate()),
+('https://stpayroll360001.blob.core.windows.net/tsm','shelara@pcscapital.com','mindcraft@123','443','/tsm/voya/',NULL,'SYSYTEM,Getdate(),'SYSTEM,gatdate()),
+('https://stpayroll360001.blob.core.windows.net/tsm','shelara@pcscapital.com','mindcraft@123','443','/relius/paylocity/',NULL,'SYSYTEM,Getdate(),'SYSTEM,gatdate()),
+('https://stpayroll360001.blob.core.windows.net/tsm','shelara@pcscapital.com','mindcraft@123','443','/tsm/schoolsfirst/',NULL,'SYSYTEM,Getdate(),'SYSTEM,gatdate())
+

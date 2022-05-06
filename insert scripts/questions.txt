@@ -1,0 +1,13 @@
+1. what is the reconsilatio technique we are going to use?
+
+2. can we use multicasting for VOYA file to store each level seperately?
+
+3. for identifying PLAN ID, master file should be provided or we are going to create it?
+
+4. For files without headers we will be mapping it, but who is going to state that mapping is correct?
+ if the structure is changed and there is ambiguity, who is going to cleaar it?
+
+5 we will create 3 folders to store files, 1.current files, 2. last done files, 3. Archive files.
+so what is the purging crieteria?
+
+6.
